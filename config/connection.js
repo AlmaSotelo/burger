@@ -3,10 +3,10 @@ var mysql = require("mysql");
 
 var connection = mysql.createConnection({
    host: "localhost",
-   port:8080,
+   port:3306,
    user:"root",
-   password:"password",
-   database:"burger"
+   password:"",
+   database:"burgers_db"
 })
 
 //Make connection.
@@ -19,4 +19,4 @@ connection.connect(function(err) {
 });
 
 //Export connection for our ORM to use.
-module.exports = connection;
+module.exports = connection; 
