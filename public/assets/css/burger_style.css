@@ -1,0 +1,51 @@
+#top-bar {
+   background-color:red;
+   height: 230px;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.devouredContainers {
+   margin: 14px;
+}
+.burger {
+
+   background-color: red;
+   height: 75px;
+   width: 150px;
+   display: flex;
+   font-size: 25px;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   border-radius: 10px;
+   margin: 14px;
+
+}
+.submit {
+   height: 30px;
+   background-color: brown;
+   color: white;
+   border-radius: 10px;
+
+}
+.devouredBurger {
+   background-color: white;
+   height: 75px;
+   width: 150px;
+   display: flex;
+   font-size: 25px;
+   justify-content: center;
+   align-items: center;
+   color: red;
+   border-radius: 10px;
+}
+
+body {
+   background-image: url('../img/tablecloths.jpg');
+  /* You must set a specified height */
+  /* bac background-repeat: no-repeat; /* Do not repeat the image */
+  /* background-size: cover; /* Resize the background image to cover the entire container */
+}
