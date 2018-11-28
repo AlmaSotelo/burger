@@ -11,10 +11,8 @@ This application uses a MVC (Model-view-controller) framework
 * The server file is in charge of creating the Express connection and of running the Node server.
 
 ### NPM Packages:
-* Because Express and Express-handlebars are used:
- - Express, Express-handlebars, body-parser, and method override.
-* Because mySQL is used for the back-end database:
- - MySQL.
+* Because Express and Express-handlebars are used: Express, Express-handlebars, body-parser, and method override.
+* Because mySQL is used for the back-end database: MySQL.
 
 ### CONSTRUCCION:
 * Phase A. package.json set up
