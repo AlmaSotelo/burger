@@ -1,21 +1,24 @@
 #top-bar {
-   background-color:red;
-   height: 230px;
+   height: 100px;
    display: flex; 
    justify-content: center;
    align-items: center;
    color: white;
 }
+#img { 
+   display:block;
+   margin:auto;
+}
 
 .devouredContainers {
    margin: 14px;
+   display:flex !important;
 }
 .burger {
-
-   background-color: red;
+   background-color: rgb(197, 46, 46);
    height: 75px;
    width: 150px;
-   display: flex;
+   display:flex;
    font-size: 25px;
    justify-content: center;
    align-items: center;
@@ -29,7 +32,7 @@
    background-color: brown;
    color: white;
    border-radius: 10px;
-
+   display:flex;
 }
 .devouredBurger {
    background-color: white;
@@ -44,8 +47,12 @@
 }
 
 body {
-   background-image: url('../img/tablecloths.jpg');
-  /* You must set a specified height */
-  /* bac background-repeat: no-repeat; /* Do not repeat the image */
-  /* background-size: cover; /* Resize the background image to cover the entire container */
+   background-image: linear-gradient(red, yellow);
+   background-repeat: no-repeat;  
+   background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+#text-enter-button {
+   background-color: brown;
+}
+
