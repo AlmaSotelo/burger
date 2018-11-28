@@ -37,7 +37,7 @@ This application uses a MVC (Model-view-controller) framework
       -  Time to test database connection to the server. Succsesfuly the server is collecting data from mySQL  database (from orm.js, from burger.js, and using the burgers_controllers.js in order to do so). Now, this data is passed into index.handelbars file.
       - Second, index.handlebars is created where is passed burger_data into it. This data is looped through all the rows and posts burger names. Then, burger_data is added into burgers-controllers.js. 
       -  Time to check html.handlebars's coding.
-      Tird, coded for orm.insertOne to create new data in the database, and also for orm.updateOne to modify data.
+      -  Tird, coded for orm.insertOne to create new data in the database, and also for orm.updateOne to modify data.
 
 
 
