@@ -20,8 +20,8 @@ This application uses a MVC (Model-view-controller) framework
 -  2.Created and set up a package.json file: 
    * npm init and,
    * Installed all nmp packages.
-* Phase B. Linking backend to frontend (server to routes, then to handlebars,then to index).
--  1.Codeed the basics in server.js. This file also refers to burgers_controllers.js
+* Phase B. Linking backend to frontend (server to routes, then to handlebars, then to index).
+-  1.Coded the basics in server.js. This file also refers to burgers_controllers.js
 -  2.Created burgers_controller.js inside the controllers folder and for now wrote code to import express and express.Router to it. Also set the base router ("/"), and code to export it. This is rending a HTML file, which lives in the views folder.
 -  3.Created main.handlebars file inside layout folder. This contains the basic HTML code.
 -  4.Created index.handlebars file inside views folder. This contains the majority of the Handlebars code. 
