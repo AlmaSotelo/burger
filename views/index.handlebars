@@ -7,7 +7,7 @@
   </div> <!-- end of first row--> 
   <img id="img" src="/assets/img/burger.jpg" width="200px" heigth="200px">
   <div class="col-xl-12 text-center" class="task">
-    <div style="display:flex" class="row">
+    <div class="row d-flex">
       {{#each burger_data}}
       {{#unless this.devoured}}
       <div style="display:flex">
@@ -27,8 +27,7 @@
       {{/unless}}
       {{/each}}
     </div>
-    <div class="container">
-      <div style="display:flex" class="col-xl-12 text-center" class="task">
+    <div class="d-flex justify-content-center flex-wrap task">
         {{#each burger_data}}
           {{#if this.devoured}}
         <div class="devouredContainers">
@@ -38,7 +37,6 @@
         </div>
         {{/if}}
         {{/each}}  
-      </div>
     </div>
   </div> <!-- end of second row -->  
 <div class="container">
